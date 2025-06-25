@@ -1,0 +1,118 @@
+ body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+ }
+
+ .container {
+   width: 400px;
+   margin: 60px auto;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+ }
+
+ input,
+ button {
+   width: 90%;
+   padding: 10px;
+   margin: 8px 0;
+   font-size: 16px;
+ }
+
+ button {
+   background-color: #007bff;
+   color: white;
+   border: none;
+   cursor: pointer;
+   width: 96%;
+
+ }
+
+ button:hover {
+   background-color: #0056b3;
+ }
+
+ h2 {
+   text-align: center;
+ }
+
+ /* Dashboard Specific Styles */
+form {
+  margin-bottom: 20px;
+}
+
+form input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #f9f9f9;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li strong {
+  color: #333;
+  margin-right: 10px;
+}
+
+ul li button {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ul li button:hover {
+  background-color: #c82333;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.google-btn {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.google-btn:hover {
+  background-color: #3367d6;
+  text-decoration: none;
+}
+
+.google-icon {
+  background: white;
+  border-radius: 2px;
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+}
